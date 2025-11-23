@@ -1,1 +1,3 @@
-export const AUTH_URL = 'http://localhost:5000/api/auth';
+import { API_URL } from './api.js'
+
+export const AUTH_URL = `${API_URL}/auth`;
